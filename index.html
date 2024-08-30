@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Formulario de Inscrição</title> 
+        <h1>Formulario de Inscrição</h1> 
+    </head>
+
+         <form>
+        <!-- Escreva seu nome -->
+            <label for="nome" >Nome:</label>
+            <br>
+             <input type="text" id="nome" name="nome" required>
+             <br><br>
+       
+            <!-- Escreva seu email -->
+             <label for="email" >Email:</label>
+             <br>
+             <input type="text" id="email" name="email" required>
+             <br><br>
+         
+            <!-- Escreva seu Whatsapp-->
+             <label for="Whatsapp" >Whatsapp:</label>
+             <br>
+             <input type="number" id="whatsapp" name="whatsapp" required>
+             <br><br>
+         
+         <p>Area de atuação:</p>
+             
+            <!-- Selecione sua area de atuação -->
+            <input type="radio" id="desenvolvimento" name="desenvolvimento" value="desenvolvimento" required>
+            <label for="desenvolvimento" >Desenvolvimento</label>
+            <input type="radio" id="qualityassegurance" name="desenvolvimento" value="qualityassegurance" required>
+            <label for="qualityassegurance" >Quality Assegurance(QA)</label>
+            <input type="radio" id="analisededados" name="desenvolvimento" value="analisededados" required>
+            <label for="analisededados" >Analise de dados</label>
+            <input type="radio" id="infraestrutura" name="desenvolvimento" value="infraestrutura" required>
+            <label for="infraestrutura" >Infraestrutura</label>
+            <br>
+
+         <p>Observações:</p>
+
+         <!-- Escreva um texto -->
+         <textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você..."></textarea>
+         <br><br>
+
+         <!-- Botão de Seleção -->
+         <input type="checkbox" id="backend" name="interesses" value="backend">
+         <label for="checkbox" >Desejo receber novidades e ofertas por email.</label>
+         <br>
+
+         <!-- Botão de Envio-->
+         <button type="submit">Enviar</button>
+ 
+        </form>
+        </body>
+</html>
